@@ -1,0 +1,15 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Terraform variable files
+*.tfvars
+
+# Directory for local .terraform config
+.terraform/
+
+# Credenciales y archivos sensibles
+*.json
