@@ -19,11 +19,17 @@ La carpeta `/website` encapsula el **código fuente frontend** de la aplicación
     
 -   **`js/`**: Archivos JavaScript (`.js`) que proporcionan interactividad y lógica del lado del cliente.
 
-![Imagen de infraestructura(solo Front-End por el momento)](https://imgur.com/a/nI0ZwIB)
+![Imagen de infraestructura(solo Front-End por el momento)](https://i.imgur.com/ixRIjxn.png)
 
 ### Propósito y Escalabilidad:
 
 El contenido actual en `/website` representa una **implementación mínima viable (MVP)** o una **muestra funcional** del sitio de la barbería. Su propósito es **validar el proceso de despliegue automatizado** a través de **Terraform** en **GCP**, demostrando la capacidad de servir contenido estático de manera eficiente. Esta estructura modular facilita futuras expansiones, permitiendo la integración de frameworks frontend más complejos, o la separación en un **microfrontend** si el proyecto lo requiere, sin impactar directamente la infraestructura definida en `/infra`.
+
+### Propósito y Escalabilidad:
+
+Se procedera a implementar un Backend en las proxima actualizaciones a fin de mostra un proyecto completo, proximo a actualizar en las siguientes semanas
+
+![Imagen de infraestructura con Back End(aun en desarrollo)](https://i.imgur.com/oVmYeMa.png)
 
 ## 🔐 Seguridad
 
